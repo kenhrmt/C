@@ -336,7 +336,7 @@ struct date{
   int day;
 }
 
-struct date today; 
+struct date today; // 構造体data型の変数todayの宣言(=　yearなどの記憶領域確保)
 today.year = 2018;
 today.month = 8;
 today.day = 4;
@@ -430,7 +430,7 @@ double　num;
 |:---|:---|:---|:---|
 |`&=` |論理値　AND |`a &= b` |a= a & b|
 |&#124;= |論理和 OR |a &#124;= b |- |
-|`^=` |排他的論理和 EOR |`a  b` | - |
+|`^=` |排他的論理和 EOR |`a ^= b` | - |
 |>>= |右シフト |a >>= 2 |- |
 |<<= |左シフト |a <<= 2 |- |
 
