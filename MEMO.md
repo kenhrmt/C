@@ -336,7 +336,7 @@ struct date{
   int day;
 }
 
-struct date today; // 構造体data型の変数todayの宣言(=　yearなどの記憶領域確保)
+struct date today; // 構造体data型の変数todayの宣言　(コンパイラでは, 境界調整(アライメント)を行ってから記憶領域確保される)
 today.year = 2018;
 today.month = 8;
 today.day = 4;
